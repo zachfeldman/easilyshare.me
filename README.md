@@ -8,4 +8,4 @@ Are welcome. Send them along!
 Do what you want with the code, but please let me know about it somehow, because that would be cool.
 
 ### Credits
-* [@zachfeldman](http://twitter.com/zachfeldman)
+[@zachfeldman](http://twitter.com/zachfeldman)
