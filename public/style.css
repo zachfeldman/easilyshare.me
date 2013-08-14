@@ -1,0 +1,31 @@
+.results{
+  font-size: 20px;
+}
+
+.results > span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+label .text{
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+
+label > input{
+  margin-left: 12px;
+}
+
+label > input[name='title']{
+  margin-left: 30px;
+}
+
+label > input[name='source']{
+  margin-left: 10px;
+}

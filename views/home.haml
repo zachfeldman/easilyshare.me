@@ -1,0 +1,40 @@
+easily generate social links from a url and description, just start typing
+%br
+%br
+%form
+  %fieldset
+    %label{name: "url"}
+      %span.text url
+      (
+      %span.icon-facebook
+      %span.icon-twitter
+      %span.icon-linkedin
+      %span.icon-google-plus
+      )
+      %input{name: "url"}
+    %label{name: "title"}
+      %span.text title
+      (
+      %span.icon-twitter
+      %span.icon-linkedin
+      )
+      %input{name: "title"}
+    %label{name: "source"}
+      %span.text source
+      (
+      %span.icon-twitter
+      %span.icon-linkedin
+      )
+      %input{name: "source"}
+.results
+  %br
+  %span.icon-facebook
+  %br
+  %span.icon-twitter
+  %br
+  %span.icon-linkedin
+  %br
+  %span.icon-google-plus
+.footer
+  crafted for fun and utility by
+  %a{href: "zfeldman.com"} @zachfeldman
