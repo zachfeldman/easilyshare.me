@@ -1,2 +1,2 @@
-require './easily_share_it'
+require './easily_share_me'
 run Sinatra::Application

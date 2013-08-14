@@ -1,4 +1,4 @@
-# [easilyshare.it](http://easilyshare.it)
+# [easilyshare.me](http://easilyshare.me)
 A super easy to use online utility to generate social sharing links
 
 ### Pull Requests
