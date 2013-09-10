@@ -16,6 +16,12 @@ linkedin_encode = (url, title, source) ->
   linkedin += "&source=#{encodeURIComponent(source)}" if source
   return linkedin
 
+tumblr_encode = (url, title, source) ->
+  tumblr = "http://www.tumblr.com/share/link?url=#{encodeURIComponent(url)}"
+  tumblr += "&name=#{encodeURIComponent(title)}" if title
+  tumblr += "&description=#{encodeURIComponent(source)}" if source
+  return tumblr
+  
 $(document).ready ->
   $("input").on "keyup", ()->
     $(".results > span").each (index, value) ->
